@@ -103,6 +103,7 @@ public class ProjectsApp {
             }
 
             conn.close();
+            
         } catch (SQLException e) {
             System.out.println("Delete error: " + e.getMessage());
         }
